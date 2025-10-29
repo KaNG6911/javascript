@@ -468,6 +468,13 @@
 // BODLOGO 2UUD
 
 // bodlogo1.Өндөр жил шалгах - (Example: 2000, Result: Өндөр жил. Example-1: 2001, Result: Өндөр жил биш.) Шалгах нөхцөл: 4-т хуваагддаг, 400 -т хуваагддаг, 100 хуваагдахгүй.
+// const num = 2116;
+// if ((num % 4 === 0 && num % 100 !== 0) || num % 400 === 0) {
+//   hun = "ondor jil";
+// } else {
+//   hun = "ondor jil bish";
+// }
+// console.log(hun);
 
 // bodlogo. 2. Өгөгдсөн 3 тоогоор талаа хийсэн гурвалжинг байгуулж болох бол YES үгүй бол NO гэж хэвлэ. (Example: 3 4 5, Result: YES)
 // let a = 8,
