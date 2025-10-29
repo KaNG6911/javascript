@@ -319,9 +319,9 @@
 
 // bodlogo20. 1970.01.01 -ээс яг одоог хүртэл хэдэн он, сар, өдөр, цаг, минут, секунд, дооль, милисекунд өнгөрсөнг ол
 // console.log(
-//   parseInt(Date.now() / 1000 / 60 / 60 / 24 / 30 / 12) + " years",
+//   parseInt(Date.now() / 1000 / 60 / 60 / 24 / 365) + " years",
 //   parseInt(
-//     (Date.now() % (1000 * 60 * 60 * 24 * 30 * 12)) / 1000 / 60 / 60 / 24 / 30
+//     (Date.now() % (1000 * 60 * 60 * 24 * 365)) / 1000 / 60 / 60 / 24 / 30
 //   ) + " months",
 //   parseInt((Date.now() % (1000 * 60 * 60 * 24 * 30)) / 1000 / 60 / 60 / 24) +
 //     " days",
@@ -333,20 +333,168 @@
 // );
 
 // bodlogo21. Дугаарын хязгаарлалтаар машин чинь хэд хэд дэх өдөр явахгүйг хэвлэнэ
-let a = "2421";
-if (a[a.length - 1] == 1) {
-  hun = "monday";
-} else a[a.length - 1] == 6;
-if ((a[a.length - 1] == 2, a[a.length - 1] == 7)) {
-  hun = "tuesday";
-}
-if ((a[a.length - 3] == 1, a[a.length - 1] == 8)) {
-  hun = "wednesday";
-}
-if ((a[a.length - 1] == 4, a[a.length - 1] == 9)) {
-  hun = "thursday";
-}
-if ((a[a.length - 1] == 5, a[a.length - 1] == 0)) {
-  hun = "friday";
-}
-console.log(hun);
+// let num = 2420;
+
+// const last = num % 10;
+// console.log(last);
+
+// if (last === 1 || last === 6) {
+//   console.log("Davaa yavahgui");
+// } else if (last === 2 || last === 7) {
+//   console.log("Myagmar yavahgui");
+// } else if (last === 3 || last === 8) {
+//   console.log("Lhagva yavahgui");
+// } else if (last === 4 || last === 9) {
+//   console.log("purev yavahgui");
+// } else if (last === 5 || last === 0) {
+//   console.log("Baasan yavahgui");
+// }
+
+// 10.29nii bodloguud
+
+// bodlogo 3.1 Өгөгдсөн 3 тооны ихийг ол (if ашиглана.)
+// let a = 30,
+//   b = 90,
+//   c = 70;
+// if (a > b) {
+//   max = a;
+// } else {
+//   max = b;
+// }
+// if (max > c) {
+//   max = max;
+// } else {
+//   max = c;
+// }
+// console.log(max);
+
+// bodlogo.2.Өгөгдсөн 3 тооны багыг ол. (if ашиглана.)
+// let a = 9,
+//   b = 30,
+//   c = 80;
+// if (a < b) {
+//   min = a;
+// } else {
+//   min = b;
+// }
+// if (min < c) {
+//   min = min;
+// } else {
+//   min = c;
+// }
+// console.log(min);
+
+// bodlogo.3.Дурын дүн өгөгдөхөд үнэлгээг нь хэвлэж харуул. (Example: 100 оноо -> A үнэлгээ гэх мэт)
+// const num = 69;
+// if (89 < num && num < 101) {
+//   hun = "A";
+// } else if (79 < num && num < 90) {
+//   hun = "B";
+// } else if (69 < num && num < 80) {
+//   hun = "C";
+// } else if (59 < num && num < 70) {
+//   hun = "D";
+// } else if (0 <= num && num < 60) {
+//   hun = "F";
+// }
+// console.log(hun);
+
+// bodlogo.4. Өгөгдсөн 2 оронтой тооны цифрүүдийн үржвэрийг ол. (Example: 23, Result: 6)
+// const num = 67;
+// console.log(parseInt(num / 10) * (num % 10));
+
+// bodlogo.5. Өгөгдсөн 3 оронтой тооны цифрүүдийн нийлбэрийг ол. (Example: 125, Result: 8)
+// const num = 129;
+// const last = num % 100;
+// console.log(parseInt(num / 100) + parseInt(last / 10) + (last % 10));
+
+// bodlogo.6. Өгөгдсөн жил, сарыг сард шилжүүл. (Example: 2 7. Result:31)
+// let a = 2,
+//   b = 7;
+// console.log(a * 12 + b + " months");
+
+// bodlogo.7. Өгөгдсөн 4 тооны 50-аас их тоонуудын нийлбэрийг ол. (Example: 55 15 66 89. Result:210)
+// let a = 55,
+//   b = 15,
+//   c = 66,
+//   d = 89,
+//   hun = 0;
+// if (a > 50) {
+//   hun = hun + a;
+// }
+// if (b > 50) {
+//   hun = hun + b;
+// }
+// if (c > 50) {
+//   hun = hun + c;
+// }
+// if (d > 50) {
+//   hun = hun + d;
+// }
+// console.log(hun);
+
+// bodlogo.8. Өгөгдсөн 3 тоон дахь тэгш тоонуудын нийлбэрийг ол. (Example: 2, 6, 7. Result: 8 )
+// let a = 8,
+//   b = 6,
+//   c = 3,
+//   hun = 0;
+// if (a % 2 == 0) {
+//   hun = hun + a;
+// }
+// if (b % 2 == 0) {
+//   hun = hun + b;
+// }
+// if (c % 2 == 0) {
+//   hun = hun + c;
+// }
+// console.log(hun);
+
+// bodlogo.9. Өгөгдсөн 3 тоон дахь сондгой тоонуудын үржвэрийг ол. (Example: 1, 3, 6. Result:3)
+// let a = 3,
+//   b = 3,
+//   c = 6,
+//   hun = 1;
+// if (a % 2 == 1) {
+//   hun = hun * a;
+// }
+// if (b % 2 == 1) {
+//   hun = hun * b;
+// }
+// if (c % 2 == 1) {
+//   hun = hun * c;
+// }
+// console.log(hun);
+
+// BODLOGO 2UUD
+
+// bodlogo1.Өндөр жил шалгах - (Example: 2000, Result: Өндөр жил. Example-1: 2001, Result: Өндөр жил биш.) Шалгах нөхцөл: 4-т хуваагддаг, 400 -т хуваагддаг, 100 хуваагдахгүй.
+
+// bodlogo. 2. Өгөгдсөн 3 тоогоор талаа хийсэн гурвалжинг байгуулж болох бол YES үгүй бол NO гэж хэвлэ. (Example: 3 4 5, Result: YES)
+// let a = 8,
+//   b = 4,
+//   c = 11;
+// if (a + b > c && a + c > b && b + c > a) {
+//   hun = "YES";
+// } else {
+//   hun = "NO";
+// }
+// console.log(hun);
+
+// bodlogo.3. Долоо хоногийн дугаар өгөгдөхөд харгалзах гарагийг англиар хэвлэ. Эхний үсгийг л томоор бичнэ. (Example: 5: Result: Friday)
+// const num = 1;
+// if (num === 1) {
+//   hun = "Monday";
+// } else if (num === 2) {
+//   hun = "Tuesday";
+// } else if (num === 3) {
+//   hun = "Wednesday";
+// } else if (num === 4) {
+//   hun = "Thursday";
+// } else if (num === 5) {
+//   hun = "Friday";
+// } else if (num === 6) {
+//   hun = "Saturday";
+// } else if (num === 7) {
+//   hun = "Sunday";
+// }
+// console.log(hun);
