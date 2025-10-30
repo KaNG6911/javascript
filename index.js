@@ -505,3 +505,155 @@
 //   hun = "Sunday";
 // }
 // console.log(hun);
+
+// FOR LOOOP HICEEL 10.30
+
+// for (let i = 1; i <= 10; i++) {
+//   console.log("Pinecone" + i);
+// }
+
+// for (let i = 1; i < 2; i++) {
+//   console.log("pinecone" + i);
+// }
+
+// let text = "";
+// const n = 20;
+// for (i = 1; i <= 20; i++) {
+//   console.log("Pinecone " + i);
+// }
+
+// let text = "";
+// for (i = -1; i + 2 <= 20; i + 2) {
+//   console.log((i = i + 2));
+// }
+
+// let text = "";
+// for (i = 0; i + 2 <= 40; i + 2) {
+//   console.log((i = i + 2));
+// }
+
+// let sum = 0;
+// for (i = 0; i <= 20; i += 2) {
+//   sum += i;
+// }
+// console.log(sum);
+
+// let sum = 0;
+// for (let i = 1; i <= 40; i++) {
+//   if (i % 2 === 1) {
+//     sum += i;
+//   }
+// }
+// console.log(sum);
+
+// let sum = 0;
+// for (let i = 1; i <= 40; i += 2) {
+//   sum += i;
+// }
+// console.log(sum);
+
+// let sum = 0;
+// const n = 23;
+// for (let i = 0; i <= n; i++) {
+//   sum += i;
+// }
+// console.log(sum);
+
+// const n = 10;
+// let sum = 0;
+// for (i = 0; i < n; i++) {
+//   sum += 100;
+// }
+// console.log(sum);
+
+// let sum = 1;
+// let n = 125;
+// for (i = 1; i <= n; i++) {
+//   sum *= i;
+// }
+// console.log(sum);
+
+// const n = 125;
+// let sum = 1;
+// for (let i = 1; i <= n; i += 2) {
+//   sum *= i;
+// }
+// console.log(sum);
+
+// const n = 13;
+// let sum = 1;
+// for (let i = 1; i <= n; i++) {
+//   sum *= i;
+// }
+// console.log(sum);
+
+// const n = 10;
+// for (i = 10; i > 0; i--) {
+//   console.log(i);
+// }
+
+// let n = 8;
+// let sum = 1;
+// for (let i = 1; i <= 10; i++) {
+//   sum = n * i;
+//   console.log(`${n}*${i}=${sum}`);
+// }
+
+// const n = 9;
+// let sum = 1;
+// for (let i = 1; i <= n; i++) {
+//   sum *= 2;
+// }
+// console.log(sum);
+
+// const a = 199;
+// const b = a % 100;
+// console.log(parseInt(a / 100) + parseInt(b / 10) + (b % 10));
+
+// let a = "39483";
+// console.log(a.length);
+
+// const a = 80;
+// console.log(a ** 2);
+
+// const n = 4;
+// let sum = 0;
+// for (i = 1; i <= n; i++) {
+//   sum += i ** 3;
+// }
+// console.log(sum);
+
+// for (i = 1; i <= 30; i++) {
+//   if (i % 3 === 0 && i % 2 === 0) {
+//     console.log(i);
+//   }
+// }
+
+// Хэрвээ тоо 3-т хуваагдвал “Fizz”, 5-т хуваагдвал “Buzz” гэж хэвлэх
+// const n = 20;
+// if (n % 3 === 0) {
+//   hun = "Fizz";
+// } else if (n % 5 === 0) {
+//   hun = "Buzz";
+// }
+// console.log(hun);
+
+// for (i = 1; i <= 100; i++) {
+//   if (i % 7 !== 0) {
+//     console.log(i);
+//   }
+// }
+
+// 1–50 хүртэлх тоонууд дундаас сондгой бөгөөд 5-ын үржвэр тоонуудыг олох
+// for (i = 1; i <= 50; i++) {
+//   if (i % 2 === 1 && i % 5 === 0) {
+//     console.log(i);
+//   }
+// }
+
+// 1–100 хүртэлх тоонуудын дундаас 50–60 хооронд байгаа тоонуудын нийлбэрийг гарга.
+// let sum = 0;
+// for (i = 51; i < 60; i++) {
+//   sum += i;
+// }
+// console.log(sum);
