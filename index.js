@@ -673,3 +673,26 @@
 // console.log(sum);
 
 // 1–20 хүртэлх тоонууд дундаас анхны тоонуудыг (prime numbers) ол.
+// let prime = true;
+// num = 13;
+// for (i = 2; i <= Math.sqrt(num); i++)
+//   if (num % i === 0) {
+//     prime = false;
+//     break;
+//   }
+// console.log(prime);
+
+// 10.31NII BODLOGUUD
+
+// bodlogo1. 1-ээс 10 хүртэлх тооны квадратуудыг хэвлэ
+// for (let i = 1; i <= 10; i++) {
+//   console.log(i ** 2);
+// }
+
+// bodlogo2. Өөрийн нэрийг бичиж эсрэгээр нь хэвлэ. Жишээ нь: Сүх -> Хүс
+// let name = "altan-erdene";
+// coin = "";
+// for (i = name.length - 1; i >= 0; i--) {
+//   coin += name[i] + "";
+// }
+// console.log(coin);
