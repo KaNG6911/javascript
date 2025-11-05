@@ -139,13 +139,78 @@
 // console.log(max);
 
 // Массив дотор байгаа "" буюу хоосон string-ийг хас. ["hi", "", "world", "", "js"]
-const arr = ["hi", "", "world", "", "js"];
-let j = 0;
-hun = [];
-for (i = 0; i < arr.length; i++) {
-  if (arr[i].length > 0) {
-    hun[j] = arr[i];
-    j++;
-  }
-}
-console.log[hun];
+// const arr = ['hi', '', 'world', '', 'js']
+// let j = 0
+// hun = []
+// for (i = 0; i < arr.length; i++) {
+//   if (arr[i].length > 0) {
+//    hun[j]= arr[i]
+//     j++
+//   }
+// } console.log(hun);
+
+// Шинэ массив үүсгээд элементийг урвуу дарааллаар байрлуул. [1, 2, 3, 4]
+// const nums = [1, 2, 3, 4]
+// let hun = []
+// j = 0
+// for (let i = nums.length - 1; i >= 0; i--) {
+//   hun[j] = nums[i]
+//   j++
+// }
+// console.log(hun)
+
+// Array-ийн элементүүдийг урвуулан бичих (let nums= [1,2,5,6,9,120])
+// let nums = [1, 2, 5, 600, 9, 120];
+// for (let i = 0; i < nums.length / 2; i++) {
+//   let temp = nums[i];
+//   nums[i] = nums[nums.length - 1 - i];
+//   nums[nums.length - 1 - i] = temp;
+// }
+// console.log(nums);
+
+// Сөрөг тоонуудыг 0 болгон солино уу. (let nums = [1,2,5,6,9,120,-2,-3])
+// let nums = [1, 2, 5, 6, 9, 120, -2, -3]
+// hun = []
+// j = 0
+// for (let i = 0; i < nums.length - 1; i++) {
+//   if (nums[i] > 0) {
+//     hun[j] = nums[i]
+//     j++
+//   }
+// }
+// console.log(hun)
+
+// Тодорхой элементийн index-ийг ол. (let nums = [1,2,5,6,9,120,-2,-3], 5)
+// const nums =[1,2,50,6,9,5,-2,-3]
+// const spy = 5
+// let index=0
+// for (let i=0 ; i<nums.length; i++){
+//   if (nums[i]===spy){
+//     index=i
+//     break
+//   }
+// }console.log(index)
+
+// Хоёр дахь хамгийн их тоог ол.
+// let nums = [1, 2, 5, 6, 9, 120, 78, 99]
+// max = -Infinity
+// secondMax = -Infinity
+// for (let i=0; i<nums.length; i++){
+//   if (nums[i]>max){
+//     secondMax=max
+//     max=nums[i]
+//   }else if(secondMax<nums[i]){
+//     secondMax=nums[i]
+//   }
+// }console.log(secondMax)
+
+// Үг бүрийн эхний 3 үсгийг агуулсан шинэ массив үүсгэ.
+// let words = ['javascript', 'python', 'java', 'csharp', 'ruby']
+// hun = []
+// for (let i = 0; i < words.length; i++) {
+//   hun[i] = ""
+//   for (let k = 0; k < 3; k++) {
+//    hun[i] += words[i][k]
+//   }
+// }
+// console.log(hun)
