@@ -205,12 +205,21 @@
 // }console.log(secondMax)
 
 // Үг бүрийн эхний 3 үсгийг агуулсан шинэ массив үүсгэ.
-// let words = ['javascript', 'python', 'java', 'csharp', 'ruby']
-// hun = []
+// let words = ["javascript", "python", "java", "csharp", "ruby"];
+// hun = [];
 // for (let i = 0; i < words.length; i++) {
-//   hun[i] = ""
+//   hun[i] = "";
 //   for (let k = 0; k < 3; k++) {
-//    hun[i] += words[i][k]
+//     hun[i] += words[i][k];
 //   }
 // }
-// console.log(hun)
+// console.log(hun);
+
+//  false-г true болгох массив үүсгээрэй. booleans = [false, false, true, true]
+// const booleans = ["false", "false", "true", "true"];
+// for (let i = 0; i < booleans.length; i++) {
+//   if ((booleans[i] = "false")) {
+//     booleans[i] = "true";
+//   }
+// }
+// console.log(booleans);
