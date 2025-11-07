@@ -334,10 +334,8 @@
 
 // bodlogo21. Дугаарын хязгаарлалтаар машин чинь хэд хэд дэх өдөр явахгүйг хэвлэнэ
 // let num = 2420;
-
 // const last = num % 10;
 // console.log(last);
-
 // if (last === 1 || last === 6) {
 //   console.log("Davaa yavahgui");
 // } else if (last === 2 || last === 7) {

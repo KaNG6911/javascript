@@ -120,20 +120,17 @@
 
 // students = [{name: "Бат", math: 85, english: 90, science: 95}, {name: "Сара", math: 92, english: 88, science: 100}]
 // Хамгийн өндөр үндсэн дүн (math + english + science) бүхий оюутны нэрийг ол.
-const students = [
-  { name: "Бат", math: 85, english: 90, science: 95 },
-  { name: "Сара", math: 92, english: 88, science: 100 },
-];
-for (let i = 0; i < students.length; i++) {
-  hun = students[i].math;
-  hun += students[i].english + students[i].science;
-  max = hun[0];
-  if (hun[i] > max) {
-    max = hun[i];
-    sum = students[i].name;
-  } else {
-    max = max;
-    sum = students[i].name;
-  }
-}
-console.log(sum);
+// const students = [
+//   { name: "Бат", math: 85, english: 90, science: 95 },
+//   { name: "Сара", math: 92, english: 88, science: 100 },
+// ];
+// let sum = "";
+// for (let i = 0; i < students.length; i++) {
+//   hun = students[i].math + students[i].english + students[i].science;
+//   max = hun[0];
+//   if (hun > max) {
+//     max = hun[i];
+//     sum = students[i].name;
+//   }
+// }
+// console.log(sum);
