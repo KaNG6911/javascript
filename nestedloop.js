@@ -169,18 +169,18 @@
 // console.log(hun)
 
 // Хоёр string-ийг double loop ашиглан substring эсэхийг шалга (includes ашиглахгүй). Жишээ: "hello world", "world" → true
-let hun = 'hello world',
-  sum = 'world'
-let bool = false
-for (let i = 0; i < hun.length; i++) {
-  for (let j = 0; j < sum.length; j++) {
-    if (hun[i] === sum[j]) {
-      bool = true
-      break
-    }
-  }
-}
-console.log(bool)
+// let hun = "hello world",
+//   sum = "world";
+// let bool = false;
+// for (let i = 0; i < hun.length; i++) {
+//   for (let j = 0; j < sum.length; j++) {
+//     if (hun[i] === sum[j]) {
+//       bool = true;
+//       break;
+//     }
+//   }
+// }
+// console.log(bool);
 
 // Хоёр массивын бүх элементүүдийн нийлбэрийг 2D массив хэлбэрээр гарга. Жишээ: [1,2] ба [3,4] → [[4,5],[5,6]]
 // Хоёр string-ийн адилхан үсэг хэдэн ширхэг байгаа болохыг тооц. Жишээ: "apple", "peach" → 3 (p, e, a)
