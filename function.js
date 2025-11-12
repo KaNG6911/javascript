@@ -280,3 +280,175 @@
 // };
 // const sum = hun("1234567890");
 // console.log(sum);
+
+// Өөрийн дуртай 5 жимсний жагсаалт үүсгээд, хамгийн эхний болон хамгийн сүүлийн жимсийг хэвлэ.
+// const arr = ["mango", "banana", "grape", "orange", "watermelon"];
+// hun = arr.splice(1, arr.length - 1);
+// console.log(arr);
+
+// const hun = () => {
+//   const num = ["mango", "banana", "grape", "orange", "watermelon"];
+//   result = num.splice(1, num.length - 2);
+//   return num;
+// };
+// console.log(hun());
+
+// ['apple', 'banana'] массивын төгсгөлд 'mango' нэм.
+// const hun=()=>{
+//     const num= ['apple', 'banana']
+//     result = num.push("mango")
+//     return num
+// }
+// console.log(hun())
+
+// [1, 2, 3, 4] массиваас сүүлийн элементийг pop() ашиглан устга.
+// const hun=()=>{
+//     const num =  [1, 2, 3, 4]
+//     result = num.pop()
+//     return num
+// }
+// console.log(hun())
+
+// [10, 20, 30] массивын эхэнд 5 нэм.
+// const hun=()=>{
+//     const num=[10, 20, 30]
+//     result = num.splice(0,0,5)
+//     return num
+// }
+// console.log(hun())
+
+// [100, 200, 300] массиваас эхний элементийг shift() ашиглан устга.
+// const hun = () => {
+//   const num = [100, 200, 300];
+//   result = num.shift();
+//   return num;
+// };
+// console.log(hun());
+
+// [1, 2, 3] ба [4, 5, 6] массивуудыг нэгтгэж шинэ массив үүсгэ.
+// const hun=()=>{
+//     const num =[1, 2, 3]
+//     const sum =[4, 5, 6]
+//     result =num.push(...sum)
+//     return num
+// }
+// console.log(hun())
+
+// ['apple', 'banana', 'orange'] массив дотор 'banana' байгаа эсэхийг шалга.
+// const hun = ()=>{
+//     const num = ['apple', 'banana', 'orange']
+//     const spy = "apple"
+//     result = num.includes(spy)
+//     return result
+// }
+// console.log(hun())
+
+// ['cat', 'dog', 'bird'] массив дотор 'dog' хэддэх индекст байгааг ол.
+// const hun = () => {
+//     const num =  ['cat', 'dog', 'bird']
+//     const spy = "bird"
+//     result= num.indexOf(spy)
+//     return result
+// };
+// console.log(hun())
+
+// ['I', 'love', 'JavaScript'] массивыг join() ашиглан нэг мөр болгон холбож хэвлэ.
+// const hun = () => {
+//   const num = ["I", "love", "JavaScript"];
+//   result = num.join(" ");
+//   return result;
+// };
+// console.log(hun());
+
+// [10, 20, 30, 40, 50] массиваас эхний 3 элементийг slice() ашиглан аваад шинэ массив үүсгэ.
+// const hun=()=>{
+//     const num = [10, 20, 30, 40, 50]
+//     result = num.slice(0,3)
+//     return result
+// }
+// console.log(hun())
+
+// [1, 2, 3, 4] массиваас хоёр дахь элементийг splice() ашиглан устга.
+// const hun = () => {
+//   const num = [1, 2, 3, 4];
+//   result = num.splice(1, 1);
+//   return num;
+// };
+// console.log(hun());
+
+// [1, 2, 3, 4, 5] массивыг reverse() ашиглан урвуугаар эргүүл.
+// const hun = ()=>{
+//     const num =[1, 2, 3, 4, 5]
+//     result = num.reverse()
+//     return result
+// }
+// console.log(hun())
+
+// ['banana', 'apple', 'cherry'] массивыг sort() ашиглан үсгийн дарааллаар эрэмбэл.
+// const hun =()=>{
+//     const num = ['banana', 'apple', 'cherry']
+//     result= num.sort()
+// return result
+// }
+// console.log(hun())
+
+// Өгөгдсөн хувьсагч массив мөн эсэхийг Array.isArray() ашиглан шалга.
+// const hun = ( )=>{
+//     const num = ["wewew","wewewe", "ewewew"]
+//     result = Array.isArray(num)
+//     return result
+// }
+// console.log(hun())
+
+// ['red', 'blue', 'green'] массивын нийт уртыг хэвлэ.
+// const hun = () => {
+//   const num = ["red", "blue", "green"];
+//   result = num.length;
+//   return result;
+// };
+// console.log(hun());
+
+// [10, 20, 30] массивын дундах элемент (20)-ийг 25 болгож солино уу.
+// const hun = ()=>{
+//     const num = [10, 20, 30]
+//     result = num.splice(1, 1, 25)
+//     return num
+// }
+// console.log(hun())
+
+// ['HTML', 'CSS'] ба ['JavaScript', 'React'] массивуудыг нэгтгээд нийт хэдэн элементтэй болохыг хэвлэ.
+// const hun = () => {
+//   const num = ["HTML", "CSS"];
+//   const sum = ["JavaScript", "React"];
+//   result = num.concat(sum).length;
+//   return result;
+// };
+// console.log(hun());
+
+// [1, 2, 3, 4, 5] массиваас сүүлийн 2 элементийг splice() ашиглан устга.
+// const hun = ()=>{
+//     const num =  [1, 2, 3, 4, 5]
+//     result = num.splice(-2)
+//     return num
+// }
+// console.log(hun())
+
+// [5, 10, 15, 20] массиваас гурав дахь элементийг splice() ашиглан хас.
+// const hun = () => {
+//   const num = [5, 10, 15, 20];
+//   result = num.splice(2, 1);
+//   return num;
+// };
+// console.log(hun());
+
+// [100, 200, 300] массиваас 200 байгаа эсэхийг шалгаад, байвал “байна”, байхгүй бол “байхгүй” гэж хэвлэ.
+// const hun = () => {
+//   const num = [100, 200, 300];
+//   if (num.includes(200)){
+//       sum="baina"
+//   }else {
+//     sum="baihgui"
+//   }
+//   return sum
+// };
+// console.log(hun())
